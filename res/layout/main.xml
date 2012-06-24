@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<TextView android:id="@+id/login_status"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:text=""
+	    android:textColor="#FFFFFF"/>
+      <ImageView
+      android:id="@+id/myicon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="8dp">
+      </ImageView>
+      
+	    <Button android:id="@+id/btn_login"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/login_string"/>
+
+	    <Button android:id="@+id/btn_clear_credentials"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/clear_credentials_string"/>	 
+	            
+</LinearLayout>

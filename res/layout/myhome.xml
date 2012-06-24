@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+   <RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="3dp">
+  <ImageButton
+  android:id="@+id/backBtn"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_alignParentLeft="true" 
+  android:background="@drawable/btn_back">
+  </ImageButton>
+  <ImageButton
+  android:id="@+id/writeBtn"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+ android:layout_toRightOf="@+id/backBtn"
+  android:layout_marginLeft="6dp"
+  android:background="@drawable/btn_new">"
+  </ImageButton>
+  <ImageButton
+  android:id="@+id/refreshBtn"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_toRightOf="@+id/writeBtn"
+  android:layout_marginLeft="6dp"
+   android:background="@drawable/btn_refresh">
+  </ImageButton>
+   <TextView
+  android:id="@+id/showName"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_toRightOf="@+id/refreshBtn"
+  android:layout_marginLeft="6dp"
+  android:textSize="15dp">
+  </TextView> 
+  
+   <ImageButton
+  android:id="@+id/gonext"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_alignParentRight="true"
+  android:background="@drawable/btn_next">
+   </ImageButton>
+   
+    <ImageButton
+  android:id="@+id/golast"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_toLeftOf="@+id/gonext"
+  android:layout_marginRight="6dp"
+  android:background="@drawable/btn_last">
+   </ImageButton>
+  </RelativeLayout>
+  
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/blue">
+  </LinearLayout>
+  
+  <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+   <ListView
+            android:id="@+id/tweetlist"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"         
+            android:layout_margin="0dp"
+            android:background="#BBFFFFFF"
+            android:cacheColorHint="#00000000"
+            android:layout_above="@+id/toolbarLayout"
+            android:fastScrollEnabled="true"  
+            android:focusable="true">
+    </ListView>
+  </RelativeLayout>
+  
+</LinearLayout>

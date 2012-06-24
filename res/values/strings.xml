@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidTwitterSample!</string>
+    <string name="app_name">AndroidTwitterSample</string>
+
+     <string name="login_string">login</string>
+     <string name="clear_credentials_string">logout</string>
+      <string name="tweet_string">tweet</string>
+      <string name="write_string">write</string>
+      <string name="refresh_string">refresh</string>
+      <string name="goback_string">goback</string>
+       <string name="gonext_string">gonext</string>
+        <string name="confirm_string">confirm</string>
+      <color name="blue">#0000ff</color>
+</resources>
